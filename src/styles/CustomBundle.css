@@ -1,0 +1,509 @@
+.bundleContainer{
+  height: 38vw;
+
+}
+
+.msg{
+  padding-top: 3vw;
+}
+.customMsg{
+  text-align: center;
+  height: 20%;
+
+  font-family: myFirstFont;
+  color: #FCE205;
+
+  line-height: 10vw;
+  font-size: 1.8em;
+  vertical-align: middle;
+
+  background-color: black;
+  opacity: 0.9;
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src: url(../fonts/Alien-Encounters-Bold.ttf);
+  font-weight: bold;
+}
+
+.bundleList{
+  height: 80%;
+
+  padding-left: 5vw;
+
+  opacity: 0.9;
+  background-image: url('https://www.bondmedia.co.uk/wp-content/themes/bondmedia/images/home/pepsi/yellow-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bundlePicker{
+  display: inline-block;
+
+  height: 90%;
+  width: 22%;
+
+  margin-top: 1.5vw;
+  margin-right: 4.5vw;
+
+  /*background-color: black;*/
+  background-image: url('https://image.freepik.com/free-vector/orange-yellow-black-abstract-business-background_71775-644.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+  border-radius: 1vw;
+}
+
+.productTitle{
+  height: 20%;
+
+}
+
+.productPicker{
+  height: 57%;
+}
+
+.productSelectorLeft{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+
+  vertical-align: top;
+  
+}
+
+.arrowImg{
+  margin-top: 5.5vw;
+  margin-left: .3vw;
+  height: 3.5vw;
+  width: 3.5vw;
+}
+
+.arrowImg:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: scale(1.1);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.flip{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  
+}
+
+.product{
+  display: inline-block;
+  width: 58%;
+  height: 100%;
+
+  vertical-align: top;
+  /*text-align: center;*/
+  
+  
+}
+
+.productImg{
+  width: 10vw;
+  height: 10vw;
+
+  margin-top: 2vw;
+  margin-left: 1vw;
+}
+
+.productName{
+  text-align: center;
+  color: white;
+  font-family: myFirstFont;
+  margin-top: .5vw;
+  font-size: 0.9em;
+}
+
+
+.productSelectorRight{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+
+  vertical-align: top;
+}
+
+.buttonCustom{
+  height: 22%;
+}
+
+
+
+.bundleCustom{
+  display: inline-block;
+
+  height: 90%;
+  width: 40%;
+
+  margin-top: 1.5vw;
+  margin-right: 4.5vw;
+
+  /*background-color: black;*/
+  background-image: url('https://cdn.wallpapersafari.com/63/67/qGBLmT.jpg');
+  background-size: cover;
+  background-position: middle;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+  border-radius: 1vw;
+}
+
+.leftPicker{
+  float: left;
+  width: 48%;
+  height: 100%;
+
+  color: white;
+}
+.fillWarn{
+  float: left;
+  width: 4%;
+  height: 100%;
+
+  color: white;
+
+  text-align: center;
+}
+
+.separatorLine{
+
+  width: 80%;
+  height: 100%;
+
+
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9622837.jpg');
+  background-size: cover;
+  background-position: middle;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.rightPicker{
+  float: left;
+  width: 48%;
+  height: 100%;
+  color: white;
+}
+
+.textTitle{
+  margin-top: 1vw;
+
+  text-align: center;
+  font-size: 1.2em;
+  font-family: myFirstFont;
+}
+
+.line{
+  width: 90%;
+  height: 0.3vw;
+  margin-left: 1vw;
+  margin-top: 0.2vw;
+  
+
+
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9622837.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: -5px -5px 55px 5px black, 5px 5px 55px 5px #FCE205;
+
+}
+
+.radioList{
+
+  padding-left: 1.5vw;
+}
+
+
+.checkmark {
+  height: 1.2vw;
+  width: 1.2vw;
+  background-color: #eee;
+  border-radius: 50%;
+
+  margin-top: .8vw;
+  margin-right: 1vw;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 80%;
+  margin: 13.8px 0;
+  margin-left: 1.1vw;
+  margin-top: 1.5vw;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: black;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #FCE205;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: black;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: black;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: black;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: black;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 8.4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: black;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: black;
+}
+
+
+
+
+
+.bundleTotal{
+  display: inline-block;
+
+  height: 90%;
+  width: 22%;
+
+  margin-top: 1.5vw;
+  margin-right: 6vw;
+
+  /*background-color: black;*/
+  background-image: url('https://image.freepik.com/free-vector/orange-yellow-black-abstract-business-background_71775-644.jpg');
+  background-size: cover;
+  background-position: middle;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+  border-radius: 1vw;
+}
+
+.line2{
+  width: 90%;
+  height: 0.3vw;
+  margin-left: 1vw;
+  margin-top: 0.2vw;
+  
+
+
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9622837.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: -5px -5px 55px 5px black, 5px 5px 55px 5px #FCE205;
+  border-radius: 1vw;
+}
+
+.textT{
+  display: block;
+  margin-top: .5vw;
+}
+
+.textTotal{
+  display: inline-block;
+  color: #FCE205;
+
+  font-family: myFirstFont;
+  margin-left: 1.5vw;
+
+  font-size: 1.8em;
+}
+
+.textS{
+  display: inline-block;
+  color: #FCE205;
+
+  font-family: myFirstFont;
+  margin-left: 1.5vw;
+
+  font-size: 1.3em;
+
+  width: 23%;
+}
+
+.textPrice{
+  display: inline-block;
+  color: white;
+  font-family: myFirstFont;
+  margin-left: 8vw;
+
+  font-size: 1.3em;
+}
+
+.textPrice2{
+  display: inline-block;
+  color: white;
+  font-family: myFirstFont;
+  margin-left: 10vw;
+
+  font-size: 1.2em;
+}
+
+.line3{
+  width: 90%;
+  height: 0.3vw;
+  margin-left: 1vw;
+  margin-top: 0.2vw;
+  
+
+
+  background-color: #FCE205;
+  box-shadow: -5px -5px 55px 5px black, 5px 5px 55px 5px #FCE205;
+  border-radius: 1vw;
+}
+
+.factura{
+  margin-top: 1.5vw;
+}
+
+.facturaTotal{
+  margin-top: 2vw;
+}

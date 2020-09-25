@@ -1,0 +1,10 @@
+.listPro{
+    background-image: url('https://previews.123rf.com/images/fotouba/fotouba1701/fotouba170100002/69900798-weathered-scratched-yellow-black-background-of-wood-.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 1.2vw;
+
+    min-height: 36vw;
+}

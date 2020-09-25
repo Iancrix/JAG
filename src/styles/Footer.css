@@ -1,0 +1,30 @@
+.foot {
+  padding-top: 20px;
+  display: block;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 5px;
+  width: 50%;
+}
+
+@font-face{
+  font-family: myFifthFont;
+  src: url(../fonts/Dark\ Seed.otf);
+  font-weight: bold;
+}
+
+.footTxt {
+  font-size: 1vw;
+  font-family: myFifthFont;
+  color: #fce205;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  background-color: black;
+  padding-top: 1px;
+  box-sizing: border-box;
+  overflow: hidden;
+}

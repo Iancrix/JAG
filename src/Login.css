@@ -1,0 +1,102 @@
+.botonPersonalizado{
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 4vw;
+  text-align: center;
+  font-family: myFirstFont;
+  height: 4vw;
+  width: 14%;
+  border: 1px solid black;
+  border-bottom: 8px inset #fce205;
+  color: #fce205;
+  background-color: black;
+  transition: transform 0.2s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease-in-out;
+  float: left;
+  margin-left: 1vw;
+  }
+  .botonPersonalizado2{
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 4vw;
+    text-align: center;
+    font-family: myFirstFont;
+    height: 4vw;
+    width: 14%;
+    border: 1px solid black;
+    border-bottom: 8px inset #fce205;
+    color: #fce205;
+    background-color: black;
+    transition: transform 0.2s;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    transition: all 0.2s ease-in-out;
+    float: right;
+    margin-top: -3.2rem;
+    margin-right: 1vw;
+    }
+    
+    .botonPersonalizado:hover {
+      background-color: black;
+    
+      animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+      transform: scale(1.1);
+    }
+
+    .botonPersonalizado2:hover {
+      background-color: black;
+    
+      animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+      transform: scale(1.1);
+    }
+
+    @keyframes shake {
+      10%,
+      90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+    
+      20%,
+      80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%,
+      50%,
+      70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%,
+      60% {
+        transform: translate3d(4px, 0, 0);
+      }
+    }
+.style1{
+  display: block;
+  height: 7vw;
+  padding-top: 1.3vw;
+  background-image: url("https://previews.123rf.com/images/fotouba/fotouba1701/fotouba170100002/69900798-weathered-scratched-yellow-black-background-of-wood-.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.style2{
+margin-left: 1vw;
+font-family: myFirstFont;
+font-size: 2vw;
+}

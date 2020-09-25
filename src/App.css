@@ -1,0 +1,143 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.fill-carrousel{
+  height: 1.5vw;
+}
+
+.filler1{
+  height: 5vw;
+  background-color: black;
+}
+
+.filler2{
+  height: 5vw;
+  background-color: black;
+}
+
+@font-face{
+  font-family: myThirdFont;
+  src: url(./fonts/KarmilaScript.otf);
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: myFifthFont;
+  src: url(./fonts/Dark\ Seed.otf);
+  font-weight: bold;
+}
+
+.back{
+  color: white;
+  font-family: myThirdFont;
+  font-size: 2vw;
+  padding-top: 1vw;
+  padding-left: 1.5vw;
+}
+
+.back:hover{
+  background-color: black;
+  opacity: 0.7;
+}
+
+.sep{
+  height: 1.5vw;
+  background-color: black;
+
+}
+
+.sep2{
+  height: 23vw;
+  background-image: url('https://previews.123rf.com/images/fotouba/fotouba1701/fotouba170100002/69900798-weathered-scratched-yellow-black-background-of-wood-.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+
+.holder1{
+  display: inline-block;
+  height: 83%;
+  width: 20%;
+  margin-top: 1.8vw;
+  background-color: #fce205;
+  vertical-align: top;
+}
+
+.holder2{
+  display: inline-block;
+  height: 83%;
+  width: 20%;
+  margin-top: 1.8vw;
+  background-color: black;
+  vertical-align: top;
+}
+
+.imgholder{
+  display: block;
+  height: 90%;
+  width: 90%;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  background-image: url("https://data.whicdn.com/images/326508386/original.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.imgholder2{
+  display: block;
+  height: 90%;
+  width: 90%;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  background-image: url("https://previews.123rf.com/images/puhhha/puhhha1907/puhhha190700122/126787334-fashion-portrait-of-black-man-in-yellow-clothes-on-color-background-african-american-male-model-in-s.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.titleholder{
+  height: 20%;
+  font-family: myFifthFont;
+  color: #fce205;
+  padding-top: 1.2vw;
+  
+}
+
+.lineholder{
+  height: 2%;
+
+  width: 90%;
+  margin-left: 2vw;
+  background-color: #fce205;
+}
+
+.conholder{
+  height: 78%;
+  color: white;
+}
+
+.pholder{
+  width: 85%;
+  text-align: justify;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  font-family: myFifthFont;
+  font-size: 1.2vw;
+}
+
+.holdertxt{
+  display: inline-block;
+  vertical-align: top;
+  height: 83%;
+  width: 40%;
+  margin-top: 1.8vw;
+  margin-left: 4vw;
+  background-color: black;
+}

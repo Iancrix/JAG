@@ -1,0 +1,158 @@
+[
+   {
+      "id":1,
+      "nombre":"---",
+      "categoria":"Camiseta",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":2,
+      "nombre":"---",
+      "categoria":"Sombrero",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":3,
+      "nombre":"---",
+      "categoria":"Bufanda",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":4,
+      "nombre":"---",
+      "categoria":"Gafas",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":5,
+      "nombre":"---",
+      "categoria":"Pantalon",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":6,
+      "nombre":"---",
+      "categoria":"Zapatos",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":7,
+      "nombre":"---",
+      "categoria":"Cinturon",
+      "precio":0,
+      "imagenurl":""
+   },
+   {
+      "id":8,
+      "nombre":"Camiseta gris",
+      "categoria":"Camiseta",
+      "precio":55000,
+      "imagenurl":"https://cdn.shopify.com/s/files/1/1553/2507/products/s_4206_6bpJwjS3fteCz3UejsVh5LWWrgYrxhGrey.png?v=1484892098"
+   },
+   {
+      "id":9,
+      "nombre":"Camiseta verde",
+      "categoria":"Camiseta",
+      "precio":61000,
+      "imagenurl":"https://ya-webdesign.com/images250_/tshirt-png-no-background-8.png"
+   },
+   {
+      "id":10,
+      "nombre":"Camiseta elegante",
+      "categoria":"Camiseta",
+      "precio":75000,
+      "imagenurl":"https://pngriver.com/wp-content/uploads/2017/11/white-polo-shirt-free-PNG-transparent-background-images-free-download-clipart-pics-005.png"
+   },
+   {
+      "id":11,
+      "nombre":"Sombrero vaquero",
+      "categoria":"Sombrero",
+      "precio":172000,
+      "imagenurl":"https://www.pngarts.com/files/3/Cowboy-Hat-Transparent-Image.png"
+   },
+   {
+      "id":12,
+      "nombre":"Sombrero negro victoriano",
+      "categoria":"Sombrero",
+      "precio":230000,
+      "imagenurl":"https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bf0c.png"
+   },
+   {
+      "id":13,
+      "nombre":"Bufanda cool",
+      "categoria":"Bufanda",
+      "precio":89000,
+      "imagenurl":"https://www.stickpng.com/assets/images/589795a7cba9841eabab6137.png"
+   },
+   {
+      "id":14,
+      "nombre":"gafas de sol",
+      "categoria":"Gafas",
+      "precio":345000,
+      "imagenurl":"https://webstockreview.net/images/clipart-sunglasses-transparent-background-1.png"
+   },
+   {
+      "id":15,
+      "nombre":"Bufanda de negocios",
+      "categoria":"Bufanda",
+      "precio":135000,
+      "imagenurl":"https://lh3.googleusercontent.com/proxy/hbzftgEsclZtnZunTS9vF5EIKJxGK2nBcla0QPtjlGu2QrptbapTjpmhIW1VDUpXFRbVea_zAtjVmeTfPAamwGTxA1VXrdhC4kJVuaB341MikxWOQxcp6JwDCzCD5Q"
+   },
+   {
+      "id":16,
+      "nombre":"Gafas cool",
+      "categoria":"Gafas",
+      "precio":131000,
+      "imagenurl":"https://pngimage.net/wp-content/uploads/2018/06/glasses-transparent-png-1.png"
+   },
+   {
+      "id":17,
+      "nombre":"Cinturon de vaquero",
+      "categoria":"Cinturon",
+      "precio":334000,
+      "imagenurl":"https://proambelts.com/images/products/thumbnails/unstoppable-image-main.png"
+   },
+   {
+      "id":18,
+      "nombre":"Jeans",
+      "categoria":"Pantalon",
+      "precio":321000,
+      "imagenurl":"https://cdn.clipart.email/6c575d1ca4ad03a262d257ac76987419_jeans-png-icon-web-icons-png_1000-1000.png"
+   },
+   {
+      "id":19,
+      "nombre":"Zapatos azules",
+      "categoria":"Zapatos",
+      "precio":450000,
+      "imagenurl":"https://www.freepnglogos.com/uploads/shoes-png/shoes-woocommerce-for-developers-woocommerce-22.png"
+   },
+   {
+      "id":20,
+      "nombre":"Gafas matrix",
+      "categoria":"Gafas",
+      "precio":517000,
+      "imagenurl":"https://wheedesign.com/img/design/12681891.png"
+   }
+   ,
+   {
+      "id":21,
+      "nombre":"Gafas Kamina",
+      "categoria":"Gafas",
+      "precio":720000,
+      "imagenurl":"https://i.ya-webdesign.com/images/kamina-glasses-png.png"
+   }
+   ,
+   {
+      "id":22,
+      "nombre":"Gafas para el deporte",
+      "categoria":"Gafas",
+      "precio":511000,
+      "imagenurl":"https://www.pngkey.com/png/full/480-4807195_star-glasses-hidden-among-the-stars.png"
+   }
+]

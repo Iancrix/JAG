@@ -1,0 +1,113 @@
+.navcontainer {
+  height: 10vw;
+  background-image: url("https://image.freepik.com/free-photo/metallic-texture-background_1048-9821.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  border-bottom: 8px inset black;
+  text-align: center;
+
+  padding-left: 1.3vw;
+}
+
+.logo {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-56%);
+  transform: translateX(-56%);
+
+  background-image: url("../images/logo-final.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  top: 2vw;
+  height: 11vw;
+  width: 11vw;
+}
+
+
+.fill-space {
+  display: inline-block;
+  border: 1px solid red;
+
+  height: 100%;
+  width: 25%;
+}
+
+.navItem {
+  display: inline-block;
+  margin-top: 1vw;
+  margin-right: 1.5vw;
+  vertical-align: top;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 4vw;
+  text-align: center;
+
+  font-family: myFirstFont;
+
+  height: 4vw;
+  width: 14%;
+  border-bottom: 8px inset #fce205;
+  color: #fce205;
+  background-color: black;
+
+  margin-right: 2.5vw;
+
+  transition: transform 0.2s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+  transition: all 0.2s ease-in-out;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Alien-Encounters-Bold.ttf);
+  font-weight: bold;
+}
+
+.navItem:hover {
+  background-color: black;
+
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: scale(1.1);
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.search-bar {
+  display: inline-block;
+  vertical-align: top;
+}

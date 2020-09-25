@@ -1,0 +1,451 @@
+.customizerC{
+    height: 40vw;
+    /*background-color: lightblue;*/
+
+    background-image: url('https://previews.123rf.com/images/fotouba/fotouba1701/fotouba170100002/69900798-weathered-scratched-yellow-black-background-of-wood-.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+@font-face{
+    font-family: myFourthFont;
+    src: url(../../../fonts/LEMONMILK-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: myFirstFont2;
+    src: url(../../../fonts/Modern\ Fantasy\ DEMO.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: mySecondFont;
+    src: url(../../../fonts/KarmilaScript.otf);
+    font-weight: bold;
+}
+
+.clothingC{
+    display: inline-block;
+    background-color: 		black;
+
+    width: 29%;
+    height: 34vw;
+
+    margin-left: 5vw;
+    margin-top: 3vw;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.clothTitle{
+    text-align: center;
+    font-family: mySecondFont;
+    font-size: 1.5vw;
+
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+
+    color: white;
+}
+
+.outerScroll{
+    height: 29vw;
+    
+    width: 50%;
+    margin: 0 auto;
+
+    width: 97%;
+    overflow-y: auto;
+}
+
+.outerScroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.outerScroll::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.outerScroll::-webkit-scrollbar-thumb
+{
+	background-color: #AAA;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(0, 0, 0, .2) 50%,
+											  rgba(0, 0, 0, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+.clothCategory{
+    height: 2.5vw;
+    width: 50%;
+    margin: 0 auto;
+
+    width: 95%;
+    background-color: #fce205;
+
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    margin-top: 0.25vw;
+}
+
+.catTitle{
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-family: mySecondFont;
+
+    margin-top: 0.4vw;
+    margin-left: 0.7vw;
+
+}
+
+.minimizer{
+    float: right;
+    height: 1.5vw;
+    width: 1.5vw;
+
+    vertical-align: top;
+    margin-top: 0.5vw;
+    margin-right: 0.55vw;
+
+    background-image: url('https://cdn.iconscout.com/icon/free/png-512/minimize-1578091-1341560.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.minimizer:hover{
+    background-color: #ffeb0d;
+    opacity: 0.8;
+}
+
+.clothHolder{
+    width: 50%;
+    margin: 0 auto;
+    min-height: 5.5vw;
+    max-height: 10.7vw;
+    width: 95%;
+    background-color: #ffeb0d;
+    margin-top: 0.1vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+
+    overflow-y: scroll;
+}
+
+.clothHolder::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 0.3vw rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.clothHolder::-webkit-scrollbar
+{
+	width: 0.5vw;
+	background-color: #F5F5F5;
+}
+
+.clothHolder::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+.clothItem{
+    width: 100%;
+    height: 100%;
+}
+
+.dragItem{
+    display: inline-block;
+    width: 4.3vw;
+    height: 4.3vw;
+
+    margin-top: 0.5vw;
+    margin-left: 0.4vw;
+    border: 0.1vw solid black;
+}
+
+.clothItem:hover{
+    opacity: 0.85;
+}
+
+.runwayC{
+    display: inline-block;
+    background-color: #fce205;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+    width: 25%;
+    height: 36vw;
+    vertical-align: top;
+
+    margin-left: 5vw;
+    margin-top: 2.2vw;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.runwayTitle{
+    text-align: center;
+    font-family: mySecondFont;
+    font-size: 1.5vw;
+
+    margin-top: 0.5vw;
+}
+
+.runwayClothing{
+    position: relative;
+    height: 32.5vw;
+    margin-bottom: 0.7vw;
+
+    background-image: url('./maniquifinalfixed.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hat{
+    position: absolute;
+    /*border: 2px solid black;*/
+    width: 5.5vw;
+    height: 3.5vw;
+
+    left: 10.3vw;
+    /*top: 0.7vw;*/
+    top: 0.9vw;
+
+ /*   background-image: url('https://www.pngarts.com/files/3/Cowboy-Hat-Transparent-Image.png');*/
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 5;
+}
+
+.glasses{
+    position: absolute;
+    /*border: 3px solid black;*/
+    width: 2.5vw;
+    height: 1.5vw;
+
+    left: 11.8vw;
+    /*top: 3.1vw;*/
+    top: 3.5vw;
+
+    
+  /*  background-image: url('https://lh3.googleusercontent.com/proxy/O8vPaq8t-yh1rhffINL8aGs6qPAna51gwTNjnwSLW32a15uFnquS9iLQx6LEpn45ShDSC45zEy4XHb5d2V04pRmqUu_BhJxZKyHkiG5q69c7RpzvGl90lu-fy7PaoHy-fyQueI3pm4khFWjPdt5UFHAQ6kq4Bhie');
+    */background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 4;
+}
+
+.scarf{
+    position: absolute;
+    /*border: 2px solid black;*/
+    width: 5.5vw;
+    height: 5.5vw;
+
+    left: 10.1vw;
+    top: 5.7vw;
+
+    
+    /*background-image: url('https://www.stickpng.com/assets/images/589795a7cba9841eabab6137.png');*/
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+    z-index: 5;
+}
+
+.shirt{
+    position: absolute;
+    /*border: 2px solid black;*/
+    width: 10.2vw;
+    height: 11vw;
+
+    /*left: 7.8vw;*/
+    /*top: 5.8vw;*/
+    left: 7.61vw;
+    top: 6.1vw;
+    /*background-image: url('https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bf77.png');*/
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 3;
+}
+
+.belt{
+    position: absolute;
+    /*border: 2px solid black;*/
+    width: 5.2vw;
+    height: 2.5vw;
+
+    left: 9.7vw;
+    top: 14.6vw;
+/*
+    background-image: url('https://lh3.googleusercontent.com/proxy/TANYCgO-eoFNNYtzDxEHMa2WqvRjACgLxc8EushkyRs5RAo00j3vbtFi3VkZrhjcRTfcgjDmuIL-f5zMnjehaoCzc-6WmmCBdP1X_wKjTjOp2mMFX9iBVxY7FUJZ');
+   */ background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 4;
+}
+
+.pants{
+    position: absolute;
+    /*border: 2px solid black;*/
+
+    /*width: 5.5vw;
+    height: 12.3vw;*/
+    width: 15.5vw;
+    height: 14.0vw;
+
+    /*left: 9.9vw;
+    top: 16vw;*/
+    /*left: 4.9vw;*/
+    left: 4.5vw;
+    top: 15.5vw;
+/*
+    background-image: url('https://cdn.clipart.email/6c575d1ca4ad03a262d257ac76987419_jeans-png-icon-web-icons-png_1000-1000.png');
+   */ background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 2;
+}
+
+.shoes{
+    position: absolute;
+    /*border: 2px solid black;*/
+    width: 6.5vw;
+    height: 3.5vw;
+
+    left: 8.65vw;
+    top: 28.5vw;
+/*
+    background-image: url('https://www.freepnglogos.com/uploads/shoes-png/shoes-woocommerce-for-developers-woocommerce-22.png');
+   */ background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+.financierC{
+    display: inline-block;
+    background-color: black;
+
+    width: 27%;
+    height: 34vw;
+    vertical-align: top;
+
+    margin-left: 5vw;
+    margin-top: 3vw;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.financierTitle{
+    text-align: center;
+    font-family: mySecondFont;
+    font-size: 1.5vw;
+
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+
+    color: white;
+}
+
+.financierSell{
+    height: 1.5vw;
+    width: 50%;
+    margin: 0 auto;
+    width: 100%;
+
+    font-family: mySecondFont;
+    margin-bottom: 1vw;
+}
+
+.lineSep{
+    display: block;
+    height: 0.15vw;
+    background-color: white;
+}
+
+.clothName{
+    float: left;
+    font-size: 1.1vw;
+    color: white;
+    margin-left: 1.5vw;
+}
+
+    .clothPrice{
+    float: right;
+    font-size: 1.2vw;
+    color: #fce205;
+    margin-right: 1.5vw;
+    font-family: myFourthFont;
+    }
+
+.financierTotal{
+    height: 1.5vw;
+    width: 50%;
+    margin: 0 auto;
+    width: 90%;
+
+    font-family: mySecondFont;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+.clothTotal{
+    float: right;
+    font-size: 0.8vw;
+    margin-right: 1.6vw;
+    color: #fce205;
+}
+
+.clothTotalPrice{
+    float: right;
+    font-size: 0.8vw;
+    font-family: myFourthFont;
+    color: #fce205;
+}
